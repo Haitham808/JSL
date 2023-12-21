@@ -1,9 +1,9 @@
 import haitham.com.au.common.Global
 
 @SuppressWarnings(["GroovyAssignabilityCheck", 'GroovyParameterNamingConvention', 'GroovyConditional', 'GroovyMethodWithMoreThanThreeNegations', 'GroovyOverlyLongMethod', 'GroovyOverlyComplexMethod'])
-def call(final Map<String, Object> params = [:]) {
+def call() {
 
-    Global.set(this, params)
+    // Global.set(this, params)
 
     pipeline {
         kubernetes {
