@@ -3,7 +3,7 @@ import haitham.com.au.common.Global
 @SuppressWarnings(["GroovyAssignabilityCheck", 'GroovyParameterNamingConvention', 'GroovyConditional', 'GroovyMethodWithMoreThanThreeNegations', 'GroovyOverlyLongMethod', 'GroovyOverlyComplexMethod'])
 def call() {
 
-    // Global.set(this, params)
+     Global.set(this, params)
 
     pipeline {
         
